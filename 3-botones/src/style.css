@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boxPadre{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 250px;
+}
+
+
+.btn{
+    border:2px solid grey;
+    border-radius: 15%;
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover{
+    background-color: grey;
+    opacity: 5px;
+    color: aliceblue;
+}
+
+.showBox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px ;
+}

@@ -1,0 +1,15 @@
+.margen {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+ }
+
+.box1{
+    flex-direction: row;
+}
+
+.box2{
+    display: flex;
+   flex-direction: column;
+   
+}

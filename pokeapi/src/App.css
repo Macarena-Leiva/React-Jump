@@ -1,0 +1,114 @@
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+.card{
+margin :15px;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+width: 300px;
+height: 290px;
+text-align: center;
+margin-top: 40px;
+}
+
+.cardBody{
+  background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+  cursor: pointer;
+}
+
+
+
+.cards{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.card:hover{
+  background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png');
+  color: aliceblue;
+}
+
+.cardBody img{
+width: 200px;
+}
+
+.cardNombre{
+  background-color: rgba(128, 128, 128, 0.311);
+  height:68px
+}
+
+
+
+h5{
+  font-size:20px ;
+  text-transform: uppercase;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-top: 2px solid gray;
+  padding-top: 18px;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.conteiner-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.pulse {
+
+  --hover:rgb(142, 132, 132);
+}
+
+.pulse{
+  background: none;
+border: 2px solid;
+font: inherit;
+line-height: 1;
+margin: 0.5em;
+padding: 1em 2em;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.pulse:hover {
+  background-color: black;
+  color: antiquewhite;
+
+}
